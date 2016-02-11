@@ -13,6 +13,10 @@ html, body{
   color: #231f20;
 }
 
+a{
+  color: #000;
+}
+
 p{
   font-size: 1.8rem;
   line-height: 1.4em;
@@ -80,6 +84,7 @@ img{
 
 .site{
   padding: 60px 20px;
+  text-align: center;
 }
 .site.rocketeer{
   background: #0155b9 url("./images/rocketeer-bg-logo.svg") no-repeat 40px 40px;
@@ -91,7 +96,8 @@ img{
 }
 
 .site__copy{
-  margin: 2.4rem 0;
+  margin: 2.4rem auto;
+  max-width: 32rem;
 }
 .site__link{
   display: inline-block;
@@ -122,6 +128,9 @@ footer p{
   .intro{
     padding: 130px 0;
   }
+  .intro-copy p{
+    font-size: 2.2rem;
+  }
 
   .site-header{
     padding: 40px;
@@ -141,11 +150,9 @@ footer p{
 
   .site{
     padding: 160px 0;
-    text-align: center;
   }
 
   .site__copy{
-    max-width: 32rem;
     font-size: 2.2rem;
     margin: 4em auto;
   }
